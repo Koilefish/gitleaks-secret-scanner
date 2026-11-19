@@ -14,3 +14,8 @@ id = "classroom-demo-code"
 description = "Classroom demo code"
 path = '''(^|/)config\.py$'''
 regex = '''\bLAB-DEMO-[0-9]{6}\b'''
+[[rules]]
+id = "classroom-tiufin-key"
+description = "Fictional TIUFIN API key"
+path = '''(^|/)config\.py$'''
+regex = '''\bTIUFIN-KEY-[0-9]{8}\b'''
